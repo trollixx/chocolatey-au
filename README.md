@@ -22,15 +22,25 @@ To see Chocolatey-AU in action see [video tutorial](https://www.youtube.com/watc
 - Sugar functions for Chocolatey package maintainers.
 - Great performance - hundreds of packages can be checked and updated in several minutes.
 
-
 ## Installation
 
 Chocolatey-AU module requires minimally PowerShell version 5: `$host.Version -ge '5.0'`
 
 To install it, use one of the following methods:
-- PowerShell Gallery: [`Install-Module chocolatey-au`](https://www.powershellgallery.com/packages/Chocolatey-AU).
-- Chocolatey:  [`choco install chocolatey-au`](https://chocolatey.org/packages/au).
-- [Download](https://github.com/chocolatey-community/chocolatey-au/releases/latest) latest Chocolatey Package from GitHub.
+
+- [PowerShell Gallery](https://www.powershellgallery.com/packages/Chocolatey-AU):
+
+  ```powershell
+  Install-Module -Name Chocolatey-AU
+  ```
+
+- [Chocolatey](https://community.chocolatey.org/packages/chocolatey-au):
+
+  ```powershell
+  choco install chocolatey-au
+  ```
+
+- Download latest Chocolatey-AU package from [GitHub Releases](https://github.com/chocolatey-community/chocolatey-au/releases/latest).
 
 To quickly start using Chocolatey-AU, fork [au-packages-template](https://github.com/majkinetor/au-packages-template) repository and rename it to `au-packages`.
 

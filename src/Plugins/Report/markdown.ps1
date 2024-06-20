@@ -30,7 +30,7 @@ if (!$NoAppVeyor -and $Github_UserRepo) { "[![](https://ci.appveyor.com/api/proj
 
 @"
 [![$package_no](https://img.shields.io/badge/AU%20packages-$($package_no)-red.svg)](#ok)
-[![$au_version](https://img.shields.io/badge/AU-$($au_version)-blue.svg)](https://www.powershellgallery.com/packages/AU)
+[![$au_version](https://img.shields.io/badge/AU-$($au_version)-blue.svg)](https://www.powershellgallery.com/packages/Chocolatey-AU)
 [![](http://transparent-favicon.info/favicon.ico)](#)[![](http://transparent-favicon.info/favicon.ico)](#)
 **UTC**: $now [![](http://transparent-favicon.info/favicon.ico)](#) [$Github_UserRepo]($PackageSourceRootUrl)
 
